@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-InsuranceClassification"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-04-21T02:51:41.961+00:00"/>
+        <source value="#uE8zK39BFitCxFqU"/>
+    </meta>
+    <url value="https://xxx/CodeSystem-JP-REZEPT-InsuranceClassification"/>
+    <name value="InsuranceClassification"/>
+    <title value="自他保険区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されている自他保険区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表30 自他保険区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/ValueSet-JP-REZEPT-InsuranceClassification"/>
+    <content value="complete"/>
+</CodeSystem>

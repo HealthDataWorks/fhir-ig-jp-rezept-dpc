@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-MedicalCare"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-04-06T11:54:48.632+00:00"/>
+        <source value="#zm21AJOwA6Jr3hs1"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/CodeSystem-JP-REZEPT-MedicalCare"/>
+    <name value="MedicalCare"/>
+    <title value="診療区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されている診療区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表27 診療区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-MedicalCare"/>
+    <content value="complete"/>
+    <concept>
+        <code value="0002"/>
+        <display value="インターフェロン"/>
+        <definition value="インターフェロン"/>
+    </concept>
+    <concept>
+        <code value="0003"/>
+        <display value="ガンマグロブリン"/>
+        <definition value="ガンマグロブリン"/>
+    </concept>
+    <concept>
+        <code value="0004"/>
+        <display value="プロスタグランジンI2製剤(注射薬に限る。)"/>
+        <definition value="プロスタグランジンI2製剤(注射薬に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0005"/>
+        <display value="化学療法"/>
+        <definition value="化学療法"/>
+    </concept>
+    <concept>
+        <code value="0006"/>
+        <display value="全身麻酔"/>
+        <definition value="全身麻酔"/>
+    </concept>
+    <concept>
+        <code value="0007"/>
+        <display value="リハビリテーション"/>
+        <definition value="リハビリテーション"/>
+    </concept>
+    <concept>
+        <code value="0008"/>
+        <display value="放射線療法"/>
+        <definition value="放射線療法"/>
+    </concept>
+    <concept>
+        <code value="0010"/>
+        <display value="酵素補充療法"/>
+        <definition value="酵素補充療法"/>
+    </concept>
+    <concept>
+        <code value="0014"/>
+        <display value="精神科専門療法"/>
+        <definition value="精神科専門療法"/>
+    </concept>
+    <concept>
+        <code value="0017"/>
+        <display value="Ａ型ボツリヌス毒素"/>
+        <definition value="Ａ型ボツリヌス毒素"/>
+    </concept>
+    <concept>
+        <code value="0019"/>
+        <display value="I131内用療法"/>
+        <definition value="I131内用療法"/>
+    </concept>
+    <concept>
+        <code value="0020"/>
+        <display value="IL-2"/>
+        <definition value="IL-2"/>
+    </concept>
+    <concept>
+        <code value="0021"/>
+        <display value="LH-RH"/>
+        <definition value="LH-RH"/>
+    </concept>
+    <concept>
+        <code value="0022"/>
+        <display value="tPA"/>
+        <definition value="tPA"/>
+    </concept>
+    <concept>
+        <code value="0023"/>
+        <display value="アンチトロンビンIII製剤"/>
+        <definition value="アンチトロンビンIII製剤"/>
+    </concept>
+    <concept>
+        <code value="0024"/>
+        <display value="インフリキシマブ"/>
+        <definition value="インフリキシマブ"/>
+    </concept>
+    <concept>
+        <code value="0027"/>
+        <display value="抗胸腺細胞グロブリン"/>
+        <definition value="抗胸腺細胞グロブリン"/>
+    </concept>
+    <concept>
+        <code value="0028"/>
+        <display value="シクロスポリン(点眼薬を除く。)"/>
+        <definition value="シクロスポリン(点眼薬を除く。)"/>
+    </concept>
+    <concept>
+        <code value="0031"/>
+        <display value="性腺刺激ホルモン"/>
+        <definition value="性腺刺激ホルモン"/>
+    </concept>
+    <concept>
+        <code value="0032"/>
+        <display value="ソマトスタチンアナログ"/>
+        <definition value="ソマトスタチンアナログ"/>
+    </concept>
+    <concept>
+        <code value="0034"/>
+        <display value="第XIII因子製剤"/>
+        <definition value="第XIII因子製剤"/>
+    </concept>
+    <concept>
+        <code value="0036"/>
+        <display value="トラスツズマブ"/>
+        <definition value="トラスツズマブ"/>
+    </concept>
+    <concept>
+        <code value="0037"/>
+        <display value="肺サーファクタント"/>
+        <definition value="肺サーファクタント"/>
+    </concept>
+    <concept>
+        <code value="0038"/>
+        <display value="パリビズマブ"/>
+        <definition value="パリビズマブ"/>
+    </concept>
+    <concept>
+        <code value="0039"/>
+        <display value="人ハプトグロビン"/>
+        <definition value="人ハプトグロビン"/>
+    </concept>
+    <concept>
+        <code value="0045"/>
+        <display value="リツキシマブ"/>
+        <definition value="リツキシマブ"/>
+    </concept>
+    <concept>
+        <code value="0046"/>
+        <display value="化学療法ありかつ放射線療法なし"/>
+        <definition value="化学療法ありかつ放射線療法なし"/>
+    </concept>
+    <concept>
+        <code value="0047"/>
+        <display value="化学療法ありかつ放射線療法あり"/>
+        <definition value="化学療法ありかつ放射線療法あり"/>
+    </concept>
+    <concept>
+        <code value="0048"/>
+        <display value="化学療法なしかつ放射線療法あり"/>
+        <definition value="化学療法なしかつ放射線療法あり"/>
+    </concept>
+    <concept>
+        <code value="0049"/>
+        <display value="エダラボン"/>
+        <definition value="エダラボン"/>
+    </concept>
+    <concept>
+        <code value="0052"/>
+        <display value="IFN-α"/>
+        <definition value="IFN-α"/>
+    </concept>
+    <concept>
+        <code value="0053"/>
+        <display value="テモゾロミド(内服薬による初発の初回治療に限る。)"/>
+        <definition value="テモゾロミド(内服薬による初発の初回治療に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0054"/>
+        <display value="カルボプラチン+パクリタキセルあり"/>
+        <definition value="カルボプラチン+パクリタキセルあり"/>
+    </concept>
+    <concept>
+        <code value="0055"/>
+        <display value="ペメトレキセドナトリウム"/>
+        <definition value="ペメトレキセドナトリウム"/>
+    </concept>
+    <concept>
+        <code value="0056"/>
+        <display value="ベバシズマブ"/>
+        <definition value="ベバシズマブ"/>
+    </concept>
+    <concept>
+        <code value="0058"/>
+        <display value="IFN-β(7日以上投与した場合に限る。)"/>
+        <definition value="IFN-β(7日以上投与した場合に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0059"/>
+        <display value="シクロホスファミド+塩酸エピルビシンあり"/>
+        <definition value="シクロホスファミド+塩酸エピルビシンあり"/>
+    </concept>
+    <concept>
+        <code value="0061"/>
+        <display value="ゲムツズマブ オゾガマイシン"/>
+        <definition value="ゲムツズマブ オゾガマイシン"/>
+    </concept>
+    <concept>
+        <code value="0062"/>
+        <display value="ボルテゾミブ"/>
+        <definition value="ボルテゾミブ"/>
+    </concept>
+    <concept>
+        <code value="0063"/>
+        <display value="心臓電気生理学的検査"/>
+        <definition value="心臓電気生理学的検査"/>
+    </concept>
+    <concept>
+        <code value="0064"/>
+        <display value="アダリムマブ"/>
+        <definition value="アダリムマブ"/>
+    </concept>
+    <concept>
+        <code value="0065"/>
+        <display value="アルガトロバン"/>
+        <definition value="アルガトロバン"/>
+    </concept>
+    <concept>
+        <code value="0066"/>
+        <display value="イブリツモマブチウキセタン塩化イットリウム"/>
+        <definition value="イブリツモマブチウキセタン塩化イットリウム"/>
+    </concept>
+    <concept>
+        <code value="0067"/>
+        <display value="イブリツモマブチウキセタン塩化インジウム"/>
+        <definition value="イブリツモマブチウキセタン塩化インジウム"/>
+    </concept>
+    <concept>
+        <code value="0068"/>
+        <display value="エタネルセプト"/>
+        <definition value="エタネルセプト"/>
+    </concept>
+    <concept>
+        <code value="0069"/>
+        <display value="カルボプラチン+ドセタキセルあり"/>
+        <definition value="カルボプラチン+ドセタキセルあり"/>
+    </concept>
+    <concept>
+        <code value="0070"/>
+        <display value="サリドマイド"/>
+        <definition value="サリドマイド"/>
+    </concept>
+    <concept>
+        <code value="0071"/>
+        <display value="スニチニブリンゴ酸"/>
+        <definition value="スニチニブリンゴ酸"/>
+    </concept>
+    <concept>
+        <code value="0072"/>
+        <display value="セツキシマブ"/>
+        <definition value="セツキシマブ"/>
+    </concept>
+    <concept>
+        <code value="0073"/>
+        <display value="ソラフェニブトシル酸塩"/>
+        <definition value="ソラフェニブトシル酸塩"/>
+    </concept>
+    <concept>
+        <code value="0074"/>
+        <display value="トシリズマブ"/>
+        <definition value="トシリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0075"/>
+        <display value="トロンボモデュリンアルファ"/>
+        <definition value="トロンボモデュリンアルファ"/>
+    </concept>
+    <concept>
+        <code value="0076"/>
+        <display value="ネララビン"/>
+        <definition value="ネララビン"/>
+    </concept>
+    <concept>
+        <code value="0077"/>
+        <display value="プロスタグランジンE1製剤(注射薬に限る。)"/>
+        <definition value="プロスタグランジンE1製剤(注射薬に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0078"/>
+        <display value="ペガプタニブナトリウム"/>
+        <definition value="ペガプタニブナトリウム"/>
+    </concept>
+    <concept>
+        <code value="0079"/>
+        <display value="ペグビソマント"/>
+        <definition value="ペグビソマント"/>
+    </concept>
+    <concept>
+        <code value="0080"/>
+        <display value="メトトレキサート(注射薬に限る。)"/>
+        <definition value="メトトレキサート(注射薬に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0081"/>
+        <display value="ラニビズマブ"/>
+        <definition value="ラニビズマブ"/>
+    </concept>
+    <concept>
+        <code value="0082"/>
+        <display value="三酸化ヒ素製剤"/>
+        <definition value="三酸化ヒ素製剤"/>
+    </concept>
+    <concept>
+        <code value="0083"/>
+        <display value="乾燥ポリエチレングリコール処理人免疫グロブリン"/>
+        <definition value="乾燥ポリエチレングリコール処理人免疫グロブリン"/>
+    </concept>
+    <concept>
+        <code value="0085"/>
+        <display value="動注化学療法"/>
+        <definition value="動注化学療法"/>
+    </concept>
+    <concept>
+        <code value="0086"/>
+        <display value="ダサチニブ"/>
+        <definition value="ダサチニブ"/>
+    </concept>
+    <concept>
+        <code value="0087"/>
+        <display value="ニロチニブ塩酸塩"/>
+        <definition value="ニロチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0088"/>
+        <display value="オマリズマブ"/>
+        <definition value="オマリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0089"/>
+        <display value="イマチニブメシル酸塩"/>
+        <definition value="イマチニブメシル酸塩"/>
+    </concept>
+    <concept>
+        <code value="0090"/>
+        <display value="ゴリムマブ"/>
+        <definition value="ゴリムマブ"/>
+    </concept>
+    <concept>
+        <code value="0091"/>
+        <display value="アバタセプト"/>
+        <definition value="アバタセプト"/>
+    </concept>
+    <concept>
+        <code value="0092"/>
+        <display value="アルベカシン硫酸塩"/>
+        <definition value="アルベカシン硫酸塩"/>
+    </concept>
+    <concept>
+        <code value="0094"/>
+        <display value="エクリズマブ"/>
+        <definition value="エクリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0095"/>
+        <display value="エベロリムス"/>
+        <definition value="エベロリムス"/>
+    </concept>
+    <concept>
+        <code value="0097"/>
+        <display value="ゲムシタビン塩酸塩"/>
+        <definition value="ゲムシタビン塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0098"/>
+        <display value="テイコプラニン"/>
+        <definition value="テイコプラニン"/>
+    </concept>
+    <concept>
+        <code value="0099"/>
+        <display value="テムシロリムス"/>
+        <definition value="テムシロリムス"/>
+    </concept>
+    <concept>
+        <code value="0100"/>
+        <display value="テモゾロミド(注射薬に限る。)"/>
+        <definition value="テモゾロミド(注射薬に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0101"/>
+        <display value="ドキソルビシン塩酸塩リポソーム製剤"/>
+        <definition value="ドキソルビシン塩酸塩リポソーム製剤"/>
+    </concept>
+    <concept>
+        <code value="0102"/>
+        <display value="パクリタキセル(アルブミン懸濁型)"/>
+        <definition value="パクリタキセル(アルブミン懸濁型)"/>
+    </concept>
+    <concept>
+        <code value="0103"/>
+        <display value="パニツムマブ"/>
+        <definition value="パニツムマブ"/>
+    </concept>
+    <concept>
+        <code value="0104"/>
+        <display value="バンコマイシン塩酸塩(注射薬に限る。)"/>
+        <definition value="バンコマイシン塩酸塩(注射薬に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0107"/>
+        <display value="メトトレキサート大量療法"/>
+        <definition value="メトトレキサート大量療法"/>
+    </concept>
+    <concept>
+        <code value="0108"/>
+        <display value="レナリドミド"/>
+        <definition value="レナリドミド"/>
+    </concept>
+    <concept>
+        <code value="0110"/>
+        <display value="カプセル型内視鏡"/>
+        <definition value="カプセル型内視鏡"/>
+    </concept>
+    <concept>
+        <code value="0111"/>
+        <display value="アキシチニブ"/>
+        <definition value="アキシチニブ"/>
+    </concept>
+    <concept>
+        <code value="0112"/>
+        <display value="アフリベルセプト"/>
+        <definition value="アフリベルセプト"/>
+    </concept>
+    <concept>
+        <code value="0113"/>
+        <display value="セルトリズマブペゴル"/>
+        <definition value="セルトリズマブペゴル"/>
+    </concept>
+    <concept>
+        <code value="0114"/>
+        <display value="レゴラフェニブ"/>
+        <definition value="レゴラフェニブ"/>
+    </concept>
+    <concept>
+        <code value="0115"/>
+        <display value="トファシチニブクエン酸塩"/>
+        <definition value="トファシチニブクエン酸塩"/>
+    </concept>
+    <concept>
+        <code value="0116"/>
+        <display value="クロファラビン"/>
+        <definition value="クロファラビン"/>
+    </concept>
+    <concept>
+        <code value="0117"/>
+        <display value="ペルツズマブ"/>
+        <definition value="ペルツズマブ"/>
+    </concept>
+    <concept>
+        <code value="0119"/>
+        <display value="アザシチジン"/>
+        <definition value="アザシチジン"/>
+    </concept>
+    <concept>
+        <code value="0121"/>
+        <display value="アンブリセンタン"/>
+        <definition value="アンブリセンタン"/>
+    </concept>
+    <concept>
+        <code value="0122"/>
+        <display value="ウステキヌマブ"/>
+        <definition value="ウステキヌマブ"/>
+    </concept>
+    <concept>
+        <code value="0123"/>
+        <display value="エリブリンメシル酸塩"/>
+        <definition value="エリブリンメシル酸塩"/>
+    </concept>
+    <concept>
+        <code value="0124"/>
+        <display value="エルロチニブ"/>
+        <definition value="エルロチニブ"/>
+    </concept>
+    <concept>
+        <code value="0126"/>
+        <display value="カナキヌマブ"/>
+        <definition value="カナキヌマブ"/>
+    </concept>
+    <concept>
+        <code value="0127"/>
+        <display value="クリゾチニブ"/>
+        <definition value="クリゾチニブ"/>
+    </concept>
+    <concept>
+        <code value="0128"/>
+        <display value="ゲフィチニブ"/>
+        <definition value="ゲフィチニブ"/>
+    </concept>
+    <concept>
+        <code value="0130"/>
+        <display value="シベレスタットナトリウム"/>
+        <definition value="シベレスタットナトリウム"/>
+    </concept>
+    <concept>
+        <code value="0131"/>
+        <display value="シルデナフィルクエン酸塩"/>
+        <definition value="シルデナフィルクエン酸塩"/>
+    </concept>
+    <concept>
+        <code value="0132"/>
+        <display value="タクロリムス(外用薬を除く。)"/>
+        <definition value="タクロリムス(外用薬を除く。)"/>
+    </concept>
+    <concept>
+        <code value="0133"/>
+        <display value="タダラフィル"/>
+        <definition value="タダラフィル"/>
+    </concept>
+    <concept>
+        <code value="0134"/>
+        <display value="ドセタキセル"/>
+        <definition value="ドセタキセル"/>
+    </concept>
+    <concept>
+        <code value="0135"/>
+        <display value="パクリタキセル"/>
+        <definition value="パクリタキセル"/>
+    </concept>
+    <concept>
+        <code value="0136"/>
+        <display value="ヒトチロトロピンアルファ"/>
+        <definition value="ヒトチロトロピンアルファ"/>
+    </concept>
+    <concept>
+        <code value="0137"/>
+        <display value="ベンダムスチン塩酸塩"/>
+        <definition value="ベンダムスチン塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0138"/>
+        <display value="ボセンタン"/>
+        <definition value="ボセンタン"/>
+    </concept>
+    <concept>
+        <code value="0139"/>
+        <display value="モガムリズマブ"/>
+        <definition value="モガムリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0140"/>
+        <display value="ロミプロスチム"/>
+        <definition value="ロミプロスチム"/>
+    </concept>
+    <concept>
+        <code value="0141"/>
+        <display value="一酸化窒素吸入療法ありかつパリビズマブあり"/>
+        <definition value="一酸化窒素吸入療法ありかつパリビズマブあり"/>
+    </concept>
+    <concept>
+        <code value="0142"/>
+        <display value="肺サーファクタントありかつパリビズマブあり"/>
+        <definition value="肺サーファクタントありかつパリビズマブあり"/>
+    </concept>
+    <concept>
+        <code value="0143"/>
+        <display value="リオシグアト"/>
+        <definition value="リオシグアト"/>
+    </concept>
+    <concept>
+        <code value="0144"/>
+        <display value="アファチニブマレイン酸塩"/>
+        <definition value="アファチニブマレイン酸塩"/>
+    </concept>
+    <concept>
+        <code value="0145"/>
+        <display value="アレクチニブ塩酸塩"/>
+        <definition value="アレクチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0146"/>
+        <display value="ボスチニブ"/>
+        <definition value="ボスチニブ"/>
+    </concept>
+    <concept>
+        <code value="0147"/>
+        <display value="セクキヌマブ"/>
+        <definition value="セクキヌマブ"/>
+    </concept>
+    <concept>
+        <code value="0148"/>
+        <display value="マシテンタン"/>
+        <definition value="マシテンタン"/>
+    </concept>
+    <concept>
+        <code value="0149"/>
+        <display value="ポマリドミド"/>
+        <definition value="ポマリドミド"/>
+    </concept>
+    <concept>
+        <code value="0150"/>
+        <display value="パノビノスタット乳酸塩"/>
+        <definition value="パノビノスタット乳酸塩"/>
+    </concept>
+    <concept>
+        <code value="0151"/>
+        <display value="グラチラマー酢酸塩"/>
+        <definition value="グラチラマー酢酸塩"/>
+    </concept>
+    <concept>
+        <code value="0152"/>
+        <display value="ナタリズマブ"/>
+        <definition value="ナタリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0153"/>
+        <display value="ニボルマブ"/>
+        <definition value="ニボルマブ"/>
+    </concept>
+    <concept>
+        <code value="0154"/>
+        <display value="トレプロスチニル"/>
+        <definition value="トレプロスチニル"/>
+    </concept>
+    <concept>
+        <code value="0155"/>
+        <display value="ラムシルマブ"/>
+        <definition value="ラムシルマブ"/>
+    </concept>
+    <concept>
+        <code value="0156"/>
+        <display value="オキサリプラチン"/>
+        <definition value="オキサリプラチン"/>
+    </concept>
+    <concept>
+        <code value="0157"/>
+        <display value="トリフルリジン/チピラシル塩酸塩"/>
+        <definition value="トリフルリジン/チピラシル塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0158"/>
+        <display value="フルオロウラシル+レボホリナートカルシウム+イリノテカン塩 酸塩+オキサリプラチンあり"/>
+        <definition value="フルオロウラシル+レボホリナートカルシウム+イリノテカン塩 酸塩+オキサリプラチンあり"/>
+    </concept>
+    <concept>
+        <code value="0161"/>
+        <display value="アスナプレビル+ダクラタスビル塩酸塩あり"/>
+        <definition value="アスナプレビル+ダクラタスビル塩酸塩あり"/>
+    </concept>
+    <concept>
+        <code value="0162"/>
+        <display value="塩化ストロンチウム"/>
+        <definition value="塩化ストロンチウム"/>
+    </concept>
+    <concept>
+        <code value="0163"/>
+        <display value="リネゾリド"/>
+        <definition value="リネゾリド"/>
+    </concept>
+    <concept>
+        <code value="0164"/>
+        <display value="ダプトマイシン"/>
+        <definition value="ダプトマイシン"/>
+    </concept>
+    <concept>
+        <code value="0167"/>
+        <display value="トラスツズマブ エムタンシン"/>
+        <definition value="トラスツズマブ エムタンシン"/>
+    </concept>
+    <concept>
+        <code value="0168"/>
+        <display value="レンバチニブメシル酸塩"/>
+        <definition value="レンバチニブメシル酸塩"/>
+    </concept>
+    <concept>
+        <code value="0169"/>
+        <display value="インスリン製剤(注射薬に限る。)"/>
+        <definition value="インスリン製剤(注射薬に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0180"/>
+        <display value="タファミジスメグルミン"/>
+        <definition value="タファミジスメグルミン"/>
+    </concept>
+    <concept>
+        <code value="0181"/>
+        <display value="パゾパニブ塩酸塩"/>
+        <definition value="パゾパニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0182"/>
+        <display value="カバジタキセル アセトン付加物"/>
+        <definition value="カバジタキセル アセトン付加物"/>
+    </concept>
+    <concept>
+        <code value="0183"/>
+        <display value="アビラテロン酢酸エステル"/>
+        <definition value="アビラテロン酢酸エステル"/>
+    </concept>
+    <concept>
+        <code value="0184"/>
+        <display value="エンザルタミド"/>
+        <definition value="エンザルタミド"/>
+    </concept>
+    <concept>
+        <code value="0185"/>
+        <display value="レボノルゲストレル"/>
+        <definition value="レボノルゲストレル"/>
+    </concept>
+    <concept>
+        <code value="0186"/>
+        <display value="ブレンツキシマブ ベドチン"/>
+        <definition value="ブレンツキシマブ ベドチン"/>
+    </concept>
+    <concept>
+        <code value="0187"/>
+        <display value="アレムツズマブ"/>
+        <definition value="アレムツズマブ"/>
+    </concept>
+    <concept>
+        <code value="0188"/>
+        <display value="オファツムマブ"/>
+        <definition value="オファツムマブ"/>
+    </concept>
+    <concept>
+        <code value="0189"/>
+        <display value="メチルチオニニウム塩化物"/>
+        <definition value="メチルチオニニウム塩化物"/>
+    </concept>
+    <concept>
+        <code value="0190"/>
+        <display value="活性型プロテインC"/>
+        <definition value="活性型プロテインC"/>
+    </concept>
+    <concept>
+        <code value="0191"/>
+        <display value="パミドロン酸二ナトリウム"/>
+        <definition value="パミドロン酸二ナトリウム"/>
+    </concept>
+    <concept>
+        <code value="0192"/>
+        <display value="トルバプタン"/>
+        <definition value="トルバプタン"/>
+    </concept>
+    <concept>
+        <code value="0193"/>
+        <display value="ホメピゾール"/>
+        <definition value="ホメピゾール"/>
+    </concept>
+    <concept>
+        <code value="0194"/>
+        <display value="デクスラゾキサン"/>
+        <definition value="デクスラゾキサン"/>
+    </concept>
+    <concept>
+        <code value="0195"/>
+        <display value="イロプロスト"/>
+        <definition value="イロプロスト"/>
+    </concept>
+    <concept>
+        <code value="0196"/>
+        <display value="イブルチニブ"/>
+        <definition value="イブルチニブ"/>
+    </concept>
+    <concept>
+        <code value="0197"/>
+        <display value="セリチニブ"/>
+        <definition value="セリチニブ"/>
+    </concept>
+    <concept>
+        <code value="0198"/>
+        <display value="メポリズマブ"/>
+        <definition value="メポリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0199"/>
+        <display value="ブロダルマブ"/>
+        <definition value="ブロダルマブ"/>
+    </concept>
+    <concept>
+        <code value="0200"/>
+        <display value="カルフィルゾミブ"/>
+        <definition value="カルフィルゾミブ"/>
+    </concept>
+    <concept>
+        <code value="0201"/>
+        <display value="セレキシパグ"/>
+        <definition value="セレキシパグ"/>
+    </concept>
+    <concept>
+        <code value="0202"/>
+        <display value="イキセキズマブ"/>
+        <definition value="イキセキズマブ"/>
+    </concept>
+    <concept>
+        <code value="0203"/>
+        <display value="エロツズマブ"/>
+        <definition value="エロツズマブ"/>
+    </concept>
+    <concept>
+        <code value="0204"/>
+        <display value="ペムブロリズマブ"/>
+        <definition value="ペムブロリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0205"/>
+        <display value="イキサゾミブクエン酸エステル"/>
+        <definition value="イキサゾミブクエン酸エステル"/>
+    </concept>
+    <concept>
+        <code value="0206"/>
+        <display value="フォロデシン塩酸塩"/>
+        <definition value="フォロデシン塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0207"/>
+        <display value="アフリベルセプト ベータ"/>
+        <definition value="アフリベルセプト ベータ"/>
+    </concept>
+    <concept>
+        <code value="0208"/>
+        <display value="バリシチニブ"/>
+        <definition value="バリシチニブ"/>
+    </concept>
+    <concept>
+        <code value="0209"/>
+        <display value="プララトレキサート"/>
+        <definition value="プララトレキサート"/>
+    </concept>
+    <concept>
+        <code value="0210"/>
+        <display value="サリルマブ"/>
+        <definition value="サリルマブ"/>
+    </concept>
+    <concept>
+        <code value="0211"/>
+        <display value="ダラツムマブ"/>
+        <definition value="ダラツムマブ"/>
+    </concept>
+    <concept>
+        <code value="0212"/>
+        <display value="アベルマブ"/>
+        <definition value="アベルマブ"/>
+    </concept>
+    <concept>
+        <code value="0213"/>
+        <display value="イピリムマブ"/>
+        <definition value="イピリムマブ"/>
+    </concept>
+    <concept>
+        <code value="0214"/>
+        <display value="オシメルチニブメシル酸塩"/>
+        <definition value="オシメルチニブメシル酸塩"/>
+    </concept>
+    <concept>
+        <code value="0216"/>
+        <display value="グラゾプレビル+エルバスビルあり"/>
+        <definition value="グラゾプレビル+エルバスビルあり"/>
+    </concept>
+    <concept>
+        <code value="0217"/>
+        <display value="コラゲナーゼ(クロストリジウム ヒストリチクム)"/>
+        <definition value="コラゲナーゼ(クロストリジウム ヒストリチクム)"/>
+    </concept>
+    <concept>
+        <code value="0218"/>
+        <display value="ストレプトゾシン"/>
+        <definition value="ストレプトゾシン"/>
+    </concept>
+    <concept>
+        <code value="0219"/>
+        <display value="ソホスブビル"/>
+        <definition value="ソホスブビル"/>
+    </concept>
+    <concept>
+        <code value="0220"/>
+        <display value="ダクラタスビル塩酸塩/アスナプレビル/ベクラブビル塩酸塩"/>
+        <definition value="ダクラタスビル塩酸塩/アスナプレビル/ベクラブビル塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0221"/>
+        <display value="ダブラフェニブメシル酸塩+トラメチニブ ジメチルスルホキシ ド付加物あり"/>
+        <definition value="ダブラフェニブメシル酸塩+トラメチニブ ジメチルスルホキシ ド付加物あり"/>
+    </concept>
+    <concept>
+        <code value="0222"/>
+        <display value="デノスマブ"/>
+        <definition value="デノスマブ"/>
+    </concept>
+    <concept>
+        <code value="0223"/>
+        <display value="トラベクテジン"/>
+        <definition value="トラベクテジン"/>
+    </concept>
+    <concept>
+        <code value="0224"/>
+        <display value="ニンテダニブエタンスルホン酸塩"/>
+        <definition value="ニンテダニブエタンスルホン酸塩"/>
+    </concept>
+    <concept>
+        <code value="0225"/>
+        <display value="ボセンタン(錠剤に限る。)"/>
+        <definition value="ボセンタン(錠剤に限る。)"/>
+    </concept>
+    <concept>
+        <code value="0226"/>
+        <display value="レジパスビル アセトン付加物/ソホスブビル"/>
+        <definition value="レジパスビル アセトン付加物/ソホスブビル"/>
+    </concept>
+    <concept>
+        <code value="0227"/>
+        <display value="塩化ラジウム(223Ra)"/>
+        <definition value="塩化ラジウム(223Ra)"/>
+    </concept>
+    <concept>
+        <code value="0228"/>
+        <display value="乾燥濃縮人C1-インアクチベーター"/>
+        <definition value="乾燥濃縮人C1-インアクチベーター"/>
+    </concept>
+    <concept>
+        <code value="0229"/>
+        <display value="ベンラリズマブ"/>
+        <definition value="ベンラリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0230"/>
+        <display value="ロミデプシン"/>
+        <definition value="ロミデプシン"/>
+    </concept>
+    <concept>
+        <code value="0231"/>
+        <display value="アテゾリズマブ"/>
+        <definition value="アテゾリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0232"/>
+        <display value="テジゾリドリン酸エステル"/>
+        <definition value="テジゾリドリン酸エステル"/>
+    </concept>
+    <concept>
+        <code value="0233"/>
+        <display value="グセルクマブ"/>
+        <definition value="グセルクマブ"/>
+    </concept>
+    <concept>
+        <code value="0234"/>
+        <display value="ベドリズマブ"/>
+        <definition value="ベドリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0235"/>
+        <display value="デュルバルマブ"/>
+        <definition value="デュルバルマブ"/>
+    </concept>
+    <concept>
+        <code value="0236"/>
+        <display value="ギルテリチニブフマル酸塩"/>
+        <definition value="ギルテリチニブフマル酸塩"/>
+    </concept>
+    <concept>
+        <code value="0237"/>
+        <display value="ロルラチニブ"/>
+        <definition value="ロルラチニブ"/>
+    </concept>
+    <concept>
+        <code value="0238"/>
+        <display value="イカチバント酢酸塩"/>
+        <definition value="イカチバント酢酸塩"/>
+    </concept>
+    <concept>
+        <code value="0239"/>
+        <display value="ダコミチニブ"/>
+        <definition value="ダコミチニブ"/>
+    </concept>
+    <concept>
+        <code value="0240"/>
+        <display value="エンコラフェニブ+ビニメチニブあり"/>
+        <definition value="エンコラフェニブ+ビニメチニブあり"/>
+    </concept>
+    <concept>
+        <code value="0241"/>
+        <display value="ソホスブビル/ベルパタスビル"/>
+        <definition value="ソホスブビル/ベルパタスビル"/>
+    </concept>
+    <concept>
+        <code value="0242"/>
+        <display value="ペフィシチニブ臭化水素酸塩"/>
+        <definition value="ペフィシチニブ臭化水素酸塩"/>
+    </concept>
+    <concept>
+        <code value="0243"/>
+        <display value="アパルタミド"/>
+        <definition value="アパルタミド"/>
+    </concept>
+    <concept>
+        <code value="0244"/>
+        <display value="リサンキズマブ"/>
+        <definition value="リサンキズマブ"/>
+    </concept>
+    <concept>
+        <code value="0245"/>
+        <display value="キザルチニブ塩酸塩"/>
+        <definition value="キザルチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0246"/>
+        <display value="エヌトレクチニブ"/>
+        <definition value="エヌトレクチニブ"/>
+    </concept>
+    <concept>
+        <code value="0247"/>
+        <display value="パチシランナトリウム"/>
+        <definition value="パチシランナトリウム"/>
+    </concept>
+    <concept>
+        <code value="0248"/>
+        <display value="ラブリズマブ"/>
+        <definition value="ラブリズマブ"/>
+    </concept>
+    <concept>
+        <code value="0249"/>
+        <display value="ベネトクラクス"/>
+        <definition value="ベネトクラクス"/>
+    </concept>
+    <concept>
+        <code value="0250"/>
+        <display value="イノツズマブ オゾガマイシン"/>
+        <definition value="イノツズマブ オゾガマイシン"/>
+    </concept>
+    <concept>
+        <code value="0251"/>
+        <display value="イリノテカン塩酸塩"/>
+        <definition value="イリノテカン塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0252"/>
+        <display value="エルトロンボパグ オラミン"/>
+        <definition value="エルトロンボパグ オラミン"/>
+    </concept>
+    <concept>
+        <code value="0253"/>
+        <display value="オビヌツズマブ"/>
+        <definition value="オビヌツズマブ"/>
+    </concept>
+    <concept>
+        <code value="0254"/>
+        <display value="グレカプレビル/ピブレンタスビル"/>
+        <definition value="グレカプレビル/ピブレンタスビル"/>
+    </concept>
+    <concept>
+        <code value="0255"/>
+        <display value="ヌシネルセンナトリウム"/>
+        <definition value="ヌシネルセンナトリウム"/>
+    </concept>
+    <concept>
+        <code value="0256"/>
+        <display value="ブリナツモマブ"/>
+        <definition value="ブリナツモマブ"/>
+    </concept>
+    <concept>
+        <code value="0257"/>
+        <display value="フルオロウラシル+レボホリナートカルシウム+オキサリプラチ ン+イリノテカン塩酸塩あり"/>
+        <definition value="フルオロウラシル+レボホリナートカルシウム+オキサリプラチ ン+イリノテカン塩酸塩あり"/>
+    </concept>
+    <concept>
+        <code value="0258"/>
+        <display value="ベリムマブ"/>
+        <definition value="ベリムマブ"/>
+    </concept>
+    <concept>
+        <code value="0259"/>
+        <display value="ポナチニブ塩酸塩"/>
+        <definition value="ポナチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0260"/>
+        <display value="ランジオロール塩酸塩(画像診断時使用を除く。)"/>
+        <definition value="ランジオロール塩酸塩(R画像診断時使用を除く。)"/>
+    </concept>
+    <concept>
+        <code value="0261"/>
+        <display value="リツキシマブ+フィルグラスチム"/>
+        <definition value="リツキシマブ+フィルグラスチム"/>
+    </concept>
+    <concept>
+        <code value="0262"/>
+        <display value="リツキシマブ+レノグラスチム"/>
+        <definition value="リツキシマブ+レノグラスチム"/>
+    </concept>
+    <concept>
+        <code value="0263"/>
+        <display value="ルキソリチニブリン酸塩"/>
+        <definition value="ルキソリチニブリン酸塩"/>
+    </concept>
+    <concept>
+        <code value="0264"/>
+        <display value="内分泌負荷試験 下垂体前葉負荷試験を1種類"/>
+        <definition value="内分泌負荷試験 下垂体前葉負荷試験を1種類"/>
+    </concept>
+    <concept>
+        <code value="0265"/>
+        <display value="内分泌負荷試験 下垂体前葉負荷試験を2種類以上"/>
+        <definition value="内分泌負荷試験 下垂体前葉負荷試験を2種類以上"/>
+    </concept>
+    <concept>
+        <code value="0266"/>
+        <display value="ウパダシチニブ"/>
+        <definition value="ウパダシチニブ"/>
+    </concept>
+    <concept>
+        <code value="0267"/>
+        <display value="ダロルタミド"/>
+        <definition value="ダロルタミド"/>
+    </concept>
+    <concept>
+        <code value="0268"/>
+        <display value="カボザンチニブリンゴ酸塩"/>
+        <definition value="カボザンチニブリンゴ酸塩"/>
+    </concept>
+    <concept>
+        <code value="0269"/>
+        <display value="テポチニブ塩酸塩"/>
+        <definition value="テポチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0270"/>
+        <display value="チラブルチニブ塩酸塩"/>
+        <definition value="チラブルチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0271"/>
+        <display value="ブロルシズマブ"/>
+        <definition value="ブロルシズマブ"/>
+    </concept>
+    <concept>
+        <code value="0272"/>
+        <display value="トラスツズマブ デルクステカン"/>
+        <definition value="トラスツズマブ デルクステカン"/>
+    </concept>
+    <concept>
+        <code value="0273"/>
+        <display value="オナセムノゲン アベパルボベク"/>
+        <definition value="オナセムノゲン アベパルボベク"/>
+    </concept>
+    <concept>
+        <code value="0274"/>
+        <display value="カプマチニブ塩酸塩"/>
+        <definition value="カプマチニブ塩酸塩"/>
+    </concept>
+    <concept>
+        <code value="0275"/>
+        <display value="チルドラキズマブ"/>
+        <definition value="チルドラキズマブ"/>
+    </concept>
+    <concept>
+        <code value="0276"/>
+        <display value="イサツキシマブ"/>
+        <definition value="イサツキシマブ"/>
+    </concept>
+    <concept>
+        <code value="0277"/>
+        <display value="フィルゴチニブマレイン酸塩"/>
+        <definition value="フィルゴチニブマレイン酸塩"/>
+    </concept>
+    <concept>
+        <code value="DD01"/>
+        <display value="血管内超音波検査等加算等"/>
+        <definition value="血管内超音波検査等加算等"/>
+    </concept>
+    <concept>
+        <code value="DD02"/>
+        <display value="胆管・膵管造影法"/>
+        <definition value="胆管・膵管造影法"/>
+    </concept>
+    <concept>
+        <code value="EE01"/>
+        <display value="脳脊髄腔造影剤使用撮影加算"/>
+        <definition value="脳脊髄腔造影剤使用撮影加算"/>
+    </concept>
+    <concept>
+        <code value="KKK0"/>
+        <display value="手術なし"/>
+        <definition value="手術なし"/>
+    </concept>
+    <concept>
+        <code value="KK03"/>
+        <display value="補助循環加算"/>
+        <definition value="補助循環加算"/>
+    </concept>
+    <concept>
+        <code value="KK04"/>
+        <display value="原発性悪性脳腫瘍光線力学療法加算"/>
+        <definition value="原発性悪性脳腫瘍光線力学療法加算"/>
+    </concept>
+</CodeSystem>

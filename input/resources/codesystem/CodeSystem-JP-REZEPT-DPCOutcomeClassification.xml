@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-DPCOutcomeClassification"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-04-06T11:54:48.626+00:00"/>
+        <source value="#RLmyYjjNjcnVX8N5"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/CodeSystem-JP-REZEPT-DPCOutcomeClassification"/>
+    <name value="DPCOutcomeClassification"/>
+    <title value="DPC転帰区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されているDPC転帰区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表22 DPC転帰区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-DPCOutcomeClassification"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="治癒"/>
+        <definition value="治癒"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="軽快"/>
+        <definition value="軽快"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="寛解"/>
+        <definition value="寛解"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="不変"/>
+        <definition value="不変"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="増悪"/>
+        <definition value="増悪"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="死亡"/>
+        <definition value="死亡"/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="外死亡"/>
+        <definition value="外死亡"/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="その他"/>
+        <definition value="その他"/>
+    </concept>
+</CodeSystem>

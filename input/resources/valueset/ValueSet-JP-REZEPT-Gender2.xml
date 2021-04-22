@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-JP-REZEPT-Gender2"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-04-19T08:29:10.257+00:00"/>
+        <source value="#TUkYHt9bHTWYibK8"/>
+    </meta>
+    <url value="https://xxx/ValueSet-JP-REZEPT-Gender2"/>
+    <name value="Gender2"/>
+    <title value="性別等コード"/>
+    <status value="draft"/>
+    <description value="この ValueSet には、レセプト電算処理システムで定義されている性別等が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://xxx/CodeSystem-JP-REZEPT-Gender2"/>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-JP-REZEPT-DepartmentName"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-04-19T08:24:05.478+00:00"/>
+        <source value="#DjJHLe8uNSZ1VPNJ"/>
+    </meta>
+    <url value="https://xxx/ValueSet-JP-REZEPT-DepartmentName"/>
+    <name value="DepartmentName"/>
+    <title value="診療科名コード"/>
+    <status value="draft"/>
+    <description value="この ValueSet には、レセプト電算処理システムで定義されている診療科名が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://xxx/CodeSystem-JP-REZEPT-DepartmentName"/>
+        </include>
+    </compose>
+</ValueSet>

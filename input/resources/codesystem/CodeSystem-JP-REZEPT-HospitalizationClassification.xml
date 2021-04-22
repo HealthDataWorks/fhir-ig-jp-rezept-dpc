@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-HospitalizationClassification"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-04-06T11:54:48.654+00:00"/>
+        <source value="#HThpEegY6nhEjIkL"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/CodeSystem-JP-REZEPT-HospitalizationClassification"/>
+    <name value="HospitalizationClassification"/>
+    <title value="予定・緊急入院区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されている予定・緊急入院区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表26 予定・緊急入院区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-HospitalizationClassification"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="予定入院"/>
+        <definition value="予定入院"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="緊急入院"/>
+        <definition value="緊急入院"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="緊急入院(2以外の場合)(救急自動車又はドクターヘリにより搬入)"/>
+        <definition value="緊急入院(2以外の場合)(救急自動車又はドクターヘリにより搬入)"/>
+    </concept>
+</CodeSystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-JP-REZEPT-DPC-MedicalPractice"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-15T07:17:29.661+00:00"/>
+        <source value="#mtCvg4ghm1Q4RJnl"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-MedicalPractice"/>
+    <name value="MedicalPractice"/>
+    <title value="医科診療行為"/>
+    <status value="draft"/>
+    <description value="この ValueSet には、レセプト電算処理システムで定義されている医科診療行為の種類が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://www.ssk.or.jp/seikyushiharai/tensuhyo/kihonmasta/kihonmasta_01.html"/>
+        </include>
+    </compose>
+</ValueSet>

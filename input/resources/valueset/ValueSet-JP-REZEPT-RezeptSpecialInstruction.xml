@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-JP-REZEPT-RezeptSpecialInstruction"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-04-06T12:52:36.701+00:00"/>
+        <source value="#CusowshgRBcfKX8k"/>
+    </meta>
+    <url value="https://xxx/ValueSet-JP-REZEPT-RezeptSpecialInstruction"/>
+    <name value="RezeptSpecialInstruction"/>
+    <title value="レセプト特記事項コード"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、レセプト電算処理システムで定義されているレセプト特記事項が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://xxx/CodeSystem-JP-REZEPT-RezeptSpecialInstructions"/>
+        </include>
+    </compose>
+</ValueSet>

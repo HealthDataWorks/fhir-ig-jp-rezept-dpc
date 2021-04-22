@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-JP-REZEPT-SpecificEquipment"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-04-06T12:52:37.218+00:00"/>
+        <source value="#Hn0IVowJufGqTaDc"/>
+    </meta>
+    <url value="https://xxx/ValueSet-JP-REZEPT-SpecificEquipment"/>
+    <name value="SpecificEquipment"/>
+    <title value="特定器材"/>
+    <status value="draft"/>
+    <description value="この ValueSet には、レセプト電算処理システムで定義されている特定器材の種類が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://www.ssk.or.jp/seikyushiharai/tensuhyo/kihonmasta/kihonmasta_05.html"/>
+        </include>
+    </compose>
+</ValueSet>

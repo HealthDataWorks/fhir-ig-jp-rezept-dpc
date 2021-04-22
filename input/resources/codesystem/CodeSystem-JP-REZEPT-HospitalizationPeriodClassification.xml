@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-HospitalizationPeriodClassification"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-04-06T11:54:48.629+00:00"/>
+        <source value="#zMk7BFEIWW8wYDxR"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/CodeSystem-JP-REZEPT-HospitalizationPeriodClassification"/>
+    <name value="HospitalizationPeriodClassification"/>
+    <title value="入院期間区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されている入院期間区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表31 入院期間区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-HospitalizationPeriodClassification"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="入1(入院期間Ⅰ日以下)"/>
+        <definition value="入1(入院期間Ⅰ日以下)"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="入2(入院期間Ⅰ日を超えてⅡ日以下)"/>
+        <definition value="入2(入院期間Ⅰ日を超えてⅡ日以下)"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="入3(入院期間Ⅱ日を超えて)"/>
+        <definition value="入3(入院期間Ⅱ日を超えて)"/>
+    </concept>
+</CodeSystem>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-DiseaseNameClassification"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-04-06T11:54:48.625+00:00"/>
+        <source value="#MMkA5Z1TNFxk7sw0"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/CodeSystem-JP-REZEPT-DiseaseNameClassification"/>
+    <name value="DiseaseNameClassification"/>
+    <title value="傷病名区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されている傷病名区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表23 傷病名区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-DiseaseNameClassification"/>
+    <content value="complete"/>
+    <concept>
+        <code value="01"/>
+        <display value="傷病名(医療資源を最も投入した傷病名)"/>
+        <definition value="傷病名(医療資源を最も投入した傷病名)"/>
+    </concept>
+    <concept>
+        <code value="02"/>
+        <display value="副傷病名"/>
+        <definition value="副傷病名"/>
+    </concept>
+    <concept>
+        <code value="11"/>
+        <display value="主傷病名"/>
+        <definition value="主傷病名"/>
+    </concept>
+    <concept>
+        <code value="21"/>
+        <display value="入院の契機となった傷病名"/>
+        <definition value="入院の契機となった傷病名"/>
+    </concept>
+    <concept>
+        <code value="31"/>
+        <display value="医療資源を２番目に投入した傷病名"/>
+        <definition value="医療資源を２番目に投入した傷病名"/>
+    </concept>
+    <concept>
+        <code value="41"/>
+        <display value="入院時併存傷病名(1)"/>
+        <definition value="入院時併存傷病名(1)"/>
+    </concept>
+    <concept>
+        <code value="42"/>
+        <display value="入院時併存傷病名(2)"/>
+        <definition value="入院時併存傷病名(2)"/>
+    </concept>
+    <concept>
+        <code value="43"/>
+        <display value="入院時併存傷病名(3)"/>
+        <definition value="入院時併存傷病名(3)"/>
+    </concept>
+    <concept>
+        <code value="44"/>
+        <display value="入院時併存傷病名(4)"/>
+        <definition value="入院時併存傷病名(4)"/>
+    </concept>
+    <concept>
+        <code value="51"/>
+        <display value="入院後発症傷病名(1)"/>
+        <definition value="入院後発症傷病名(1)"/>
+    </concept>
+    <concept>
+        <code value="52"/>
+        <display value="入院後発症傷病名(2)"/>
+        <definition value="入院後発症傷病名(2)"/>
+    </concept>
+    <concept>
+        <code value="53"/>
+        <display value="入院後発症傷病名(3)"/>
+        <definition value="入院後発症傷病名(3)"/>
+    </concept>
+    <concept>
+        <code value="54"/>
+        <display value="入院後発症傷病名(4)"/>
+        <definition value="入院後発症傷病名(4)"/>
+    </concept>
+</CodeSystem>

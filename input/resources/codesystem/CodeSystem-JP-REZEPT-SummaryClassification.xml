@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-SummaryClassification"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-04-06T11:54:48.627+00:00"/>
+        <source value="#znZHJ6hrRql7PYkz"/>
+    </meta>
+    <url value="https://xxx/JP_rezept_dpc/CodeSystem-JP-REZEPT-SummaryClassification"/>
+    <name value="SummaryClassification"/>
+    <title value="レセプト総括区分コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されているレセプト総括区分コードです。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表15 レセプト総括区分コード」に記載されています。"/>
+    <valueSet value="https://xxx/JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-SummaryClassification"/>
+    <content value="complete"/>
+    <concept>
+        <code value="0"/>
+        <display value="DPCレセプト"/>
+        <definition value="DPCレセプト"/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="総括レセプト"/>
+        <definition value="総括レセプト"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="総括対象DPCレセプト"/>
+        <definition value="総括対象DPCレセプト"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="総括対象医科入院レセプト"/>
+        <definition value="総括対象医科入院レセプト"/>
+    </concept>
+</CodeSystem>

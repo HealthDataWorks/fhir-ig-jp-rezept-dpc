@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-REZEPT-DepartmentName"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-04-21T07:33:38.834+00:00"/>
+        <source value="#MJR0CYamT70k71MA"/>
+    </meta>
+    <url value="https://xxx/CodeSystem-JP-REZEPT-DepartmentName"/>
+    <name value="DepartmentName"/>
+    <title value="診療科名コード"/>
+    <status value="draft"/>
+    <description value="レセプト電算処理システムで使用されている診療科名コードです。&#xA;&#xA;医科レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(医科用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_1_kiroku.pdf) の「別表10 診療科名コード」に記載されています。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表10 診療科名コード」に記載されています。"/>
+    <valueSet value="https://xxx/ValueSet-JP-REZEPT-DepartmentName"/>
+    <content value="complete"/>
+    <concept>
+        <code value="01"/>
+        <display value="内科"/>
+        <definition value="内科"/>
+    </concept>
+    <concept>
+        <code value="02"/>
+        <display value="精神科"/>
+        <definition value="精神科"/>
+    </concept>
+    <concept>
+        <code value="09"/>
+        <display value="小児科"/>
+        <definition value="小児科"/>
+    </concept>
+    <concept>
+        <code value="10"/>
+        <display value="外科"/>
+        <definition value="外科"/>
+    </concept>
+    <concept>
+        <code value="19"/>
+        <display value="皮膚科"/>
+        <definition value="皮膚科"/>
+    </concept>
+    <concept>
+        <code value="20"/>
+        <display value="ひ尿器科"/>
+        <definition value="ひ尿器科"/>
+    </concept>
+    <concept>
+        <code value="23"/>
+        <display value="産婦人科(産科又は婦人科)"/>
+        <definition value="産婦人科(産科又は婦人科)"/>
+    </concept>
+    <concept>
+        <code value="26"/>
+        <display value="眼科"/>
+        <definition value="眼科"/>
+    </concept>
+    <concept>
+        <code value="27"/>
+        <display value="耳鼻いんこう科"/>
+        <definition value="耳鼻いんこう科"/>
+    </concept>
+    <concept>
+        <code value="30"/>
+        <display value="放射線科(放射線診断科又は放射線治療科)"/>
+        <definition value="放射線科(放射線診断科又は放射線治療科)"/>
+    </concept>
+    <concept>
+        <code value="31"/>
+        <display value="麻酔科"/>
+        <definition value="麻酔科"/>
+    </concept>
+    <concept>
+        <code value="34"/>
+        <display value="アレルギー科"/>
+        <definition value="アレルギー科"/>
+    </concept>
+    <concept>
+        <code value="35"/>
+        <display value="リウマチ科"/>
+        <definition value="リウマチ科"/>
+    </concept>
+    <concept>
+        <code value="36"/>
+        <display value="リハビリテーション科"/>
+        <definition value="リハビリテーション科"/>
+    </concept>
+    <concept>
+        <code value="37"/>
+        <display value="病理診断科"/>
+        <definition value="病理診断科"/>
+    </concept>
+    <concept>
+        <code value="38"/>
+        <display value="臨床検査科"/>
+        <definition value="臨床検査科"/>
+    </concept>
+    <concept>
+        <code value="39"/>
+        <display value="救急科"/>
+        <definition value="救急科"/>
+    </concept>
+    <concept>
+        <code value="03"/>
+        <display value="神経科"/>
+        <definition value="神経科"/>
+    </concept>
+    <concept>
+        <code value="04"/>
+        <display value="神経内科"/>
+        <definition value="神経内科"/>
+    </concept>
+    <concept>
+        <code value="05"/>
+        <display value="呼吸器科"/>
+        <definition value="呼吸器科"/>
+    </concept>
+    <concept>
+        <code value="06"/>
+        <display value="消化器科"/>
+        <definition value="消化器科"/>
+    </concept>
+    <concept>
+        <code value="07"/>
+        <display value="胃腸科"/>
+        <definition value="胃腸科"/>
+    </concept>
+    <concept>
+        <code value="08"/>
+        <display value="循環器科"/>
+        <definition value="循環器科"/>
+    </concept>
+    <concept>
+        <code value="11"/>
+        <display value="整形外科"/>
+        <definition value="整形外科"/>
+    </concept>
+    <concept>
+        <code value="12"/>
+        <display value="形成外科"/>
+        <definition value="形成外科"/>
+    </concept>
+    <concept>
+        <code value="13"/>
+        <display value="美容外科"/>
+        <definition value="美容外科"/>
+    </concept>
+    <concept>
+        <code value="14"/>
+        <display value="脳神経外科"/>
+        <definition value="脳神経外科"/>
+    </concept>
+    <concept>
+        <code value="15"/>
+        <display value="呼吸器外科"/>
+        <definition value="呼吸器外科"/>
+    </concept>
+    <concept>
+        <code value="16"/>
+        <display value="心臓血管外科"/>
+        <definition value="心臓血管外科"/>
+    </concept>
+    <concept>
+        <code value="17"/>
+        <display value="小児外科"/>
+        <definition value="小児外科"/>
+    </concept>
+    <concept>
+        <code value="18"/>
+        <display value="皮膚ひ尿器科"/>
+        <definition value="皮膚ひ尿器科"/>
+    </concept>
+    <concept>
+        <code value="21"/>
+        <display value="性病科"/>
+        <definition value="性病科"/>
+    </concept>
+    <concept>
+        <code value="22"/>
+        <display value="こう門科"/>
+        <definition value="こう門科"/>
+    </concept>
+    <concept>
+        <code value="24"/>
+        <display value="産科"/>
+        <definition value="産科"/>
+    </concept>
+    <concept>
+        <code value="25"/>
+        <display value="婦人科"/>
+        <definition value="婦人科"/>
+    </concept>
+    <concept>
+        <code value="28"/>
+        <display value="気管食道科"/>
+        <definition value="気管食道科"/>
+    </concept>
+    <concept>
+        <code value="33"/>
+        <display value="心療内科"/>
+        <definition value="心療内科"/>
+    </concept>
+</CodeSystem>

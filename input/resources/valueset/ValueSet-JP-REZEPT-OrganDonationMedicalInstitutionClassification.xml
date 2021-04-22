@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-JP-REZEPT-OrganDonationMedicalInstitutionClassification"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-04-19T08:31:04.611+00:00"/>
+        <source value="#waEokEpJz5xOSh65"/>
+    </meta>
+    <url value="https://xxx/ValueSet-JP-REZEPT-OrganDonationMedicalInstitutionClassification"/>
+    <name value="OrganDonationMedicalInstitutionClassification"/>
+    <title value="臓器提供医療機関区分コード"/>
+    <status value="draft"/>
+    <description value="この ValueSet には、レセプト電算処理システムで定義されている臓器提供医療機関区分が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://xxx/CodeSystem-JP-REZEPT-OrganDonationMedicalInstitutionClassification"/>
+        </include>
+    </compose>
+</ValueSet>
