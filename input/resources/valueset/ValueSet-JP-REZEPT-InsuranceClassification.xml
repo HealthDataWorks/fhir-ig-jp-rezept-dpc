@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-InsuranceClassification"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-21T02:51:15.981+00:00"/>
-        <source value="#bKEq3rft0W6lWRuZ"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T07:14:02.075+00:00"/>
+        <source value="#kwDP5N3y3ZDdPjC7"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-InsuranceClassification"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-dpc/ValueSet-ValueSet-JP-REZEPT-InsuranceClassification.html"/>
     <name value="InsuranceClassification"/>
     <title value="自他保険区分コード"/>
     <status value="draft"/>
     <description value="このバリューセットには、レセプト電算処理システムで定義されている自他保険区分コードが含まれます。"/>
     <compose>
         <include>
-            <system value="https://xxx/CodeSystem-JP-REZEPT-InsuranceClassification"/>
+            <system value="https://igs.healthdataworks.net/jp-rezept-dpc/CodeSystem-CodeSystem-JP-REZEPT-InsuranceClassification.html"/>
         </include>
     </compose>
 </ValueSet>

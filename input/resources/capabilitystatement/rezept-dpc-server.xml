@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="rezept-dpc-server"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-05-06T22:14:16.090+00:00"/>
-        <source value="#R0VO7mJuVmHRWkGj"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-07T07:30:00.663+00:00"/>
+        <source value="#6GYMLZU6ZjCVB3So"/>
     </meta>
-    <url value="http://xxx/rezept-dpc-server"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-dpc/CapabilityStatement-rezept-dpc-server.html"/>
     <version value="0.0.1"/>
     <name value="Rezept DPC Server"/>
     <title value="Rezept DPC Server"/>
