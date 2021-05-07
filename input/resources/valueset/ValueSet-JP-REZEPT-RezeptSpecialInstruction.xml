@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-RezeptSpecialInstruction"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-06T12:52:36.701+00:00"/>
-        <source value="#CusowshgRBcfKX8k"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T03:02:22.239+00:00"/>
+        <source value="#haRNIKjp2mGXHILP"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-RezeptSpecialInstruction"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-RezeptSpecialInstruction.html"/>
     <name value="RezeptSpecialInstruction"/>
     <title value="レセプト特記事項コード"/>
     <status value="draft"/>
     <description value="このバリューセットには、レセプト電算処理システムで定義されているレセプト特記事項が含まれます。"/>
     <compose>
         <include>
-            <system value="https://xxx/CodeSystem-JP-REZEPT-RezeptSpecialInstructions"/>
+            <system value="https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem-CodeSystem-JP-REZEPT-RezeptSpecialInstructions.html"/>
         </include>
     </compose>
 </ValueSet>

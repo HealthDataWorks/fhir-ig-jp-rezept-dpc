@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-CounterBurdenCategory"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-06T12:52:36.136+00:00"/>
-        <source value="#5LCi7PK2h6iqy6q0"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T02:55:23.974+00:00"/>
+        <source value="#79kiDGGpyiS4zvrI"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-CounterBurdenCategory"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-CounterBurdenCategory.html"/>
     <name value="CounterBurdenCategory"/>
     <title value="窓口負担額区分コード"/>
     <status value="draft"/>
     <description value="このバリューセットには、レセプト電算処理システムで定義されている窓口負担額区分が含まれます。"/>
     <compose>
         <include>
-            <system value="https://xxx/CodeSystem-JP-REZEPT-CounterBurdenCategory"/>
+            <system value="https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem-CodeSystem-JP-REZEPT-CounterBurdenCategory.html"/>
         </include>
     </compose>
 </ValueSet>

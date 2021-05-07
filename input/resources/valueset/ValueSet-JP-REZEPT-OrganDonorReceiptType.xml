@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-OrganDonorReceiptType"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-19T08:32:05.701+00:00"/>
-        <source value="#vTu0jT4oIhQ6XqoA"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T04:45:42.743+00:00"/>
+        <source value="#6vJ04GxYHqOk0Wl3"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-OrganDonorReceiptType"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-OrganDonorReceiptType.html"/>
     <name value="OrganDonorReceiptType"/>
     <title value="臓器提供者レセプト種別コード"/>
     <status value="draft"/>
     <description value="この ValueSet には、レセプト電算処理システムで定義されている臓器提供者レセプト種別が含まれます。"/>
     <compose>
         <include>
-            <system value="https://xxx/CodeSystem-JP-REZEPT-OrganDonorReceiptType"/>
+            <system value="https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-OrganDonorReceiptType.html"/>
         </include>
     </compose>
 </ValueSet>

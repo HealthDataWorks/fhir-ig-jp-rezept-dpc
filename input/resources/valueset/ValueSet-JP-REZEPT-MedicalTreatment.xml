@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-MedicalTreatment"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-19T08:30:13.125+00:00"/>
-        <source value="#mpJILuchDylN6NPR"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T04:44:04.425+00:00"/>
+        <source value="#IhZcFqhq83ZYokwD"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-MedicalTreatment"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-MedicalTreatment.html"/>
     <name value="MedicalTreatment"/>
     <title value="医学的処置コード"/>
     <status value="draft"/>
     <description value="この ValueSet には、レセプト電算処理システムで定義されている医学的処置が含まれます。"/>
     <compose>
         <include>
-            <system value="https://xxx/CodeSystem-JP-REZEPT-MedicalTreatment"/>
+            <system value="https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-MedicalTreatment.html"/>
         </include>
     </compose>
 </ValueSet>

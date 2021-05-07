@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-SpecificEquipment"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-04-06T12:52:37.218+00:00"/>
-        <source value="#Hn0IVowJufGqTaDc"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T02:31:21.100+00:00"/>
+        <source value="#NpYNbxuQW5cH3sku"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-SpecificEquipment"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-SpecificEquipment.html"/>
     <name value="SpecificEquipment"/>
     <title value="特定器材"/>
     <status value="draft"/>

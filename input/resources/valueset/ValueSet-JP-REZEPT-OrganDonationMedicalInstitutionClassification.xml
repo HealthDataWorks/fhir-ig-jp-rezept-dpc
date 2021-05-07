@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-JP-REZEPT-OrganDonationMedicalInstitutionClassification"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-19T08:31:04.611+00:00"/>
-        <source value="#waEokEpJz5xOSh65"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T04:45:14.206+00:00"/>
+        <source value="#77oullGRIb9L0EPI"/>
     </meta>
-    <url value="https://xxx/ValueSet-JP-REZEPT-OrganDonationMedicalInstitutionClassification"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-OrganDonationMedicalInstitutionClassification.html"/>
     <name value="OrganDonationMedicalInstitutionClassification"/>
     <title value="臓器提供医療機関区分コード"/>
     <status value="draft"/>
     <description value="この ValueSet には、レセプト電算処理システムで定義されている臓器提供医療機関区分が含まれます。"/>
     <compose>
         <include>
-            <system value="https://xxx/CodeSystem-JP-REZEPT-OrganDonationMedicalInstitutionClassification"/>
+            <system value="https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-OrganDonationMedicalInstitutionClassification.html"/>
         </include>
     </compose>
 </ValueSet>

@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-REZEPT-CalculationReason"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-04-21T07:32:44.333+00:00"/>
-        <source value="#SsZZqLxIeRytI9Zg"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-07T04:31:24.988+00:00"/>
+        <source value="#NEPGj33FCEER6eGb"/>
     </meta>
-    <url value="https://xxx/CodeSystem-JP-REZEPT-CalculationReason"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-CalculationReason.html"/>
     <name value="CalculationReason"/>
     <title value="医科点数表算定理由コード"/>
     <status value="draft"/>
     <description value="レセプト電算処理システムで使用されている医科点数表算定理由コードです。&#xA;&#xA;医科レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(医科用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_1_kiroku.pdf) の「別表17 医科点数表算定理由コード」に記載されています。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表18 医科点数表算定理由コード」に記載されています。"/>
-    <valueSet value="https://xxx/ValueSet-JP-REZEPT-CalculationReason"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-CalculationReason.html"/>
     <content value="complete"/>
     <concept>
         <code value="01"/>
