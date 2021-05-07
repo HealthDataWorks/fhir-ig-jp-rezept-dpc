@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="jp-rezept-dpc"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2021-04-28T02:44:45.307+00:00"/>
-        <source value="#crhjJAGSyRMN8gxO"/>
+        <versionId value="16"/>
+        <lastUpdated value="2021-05-06T22:19:06.365+00:00"/>
+        <source value="#Fx0suiQhZm3PfXAw"/>
     </meta>
     <url value="https://healthdataworks.net/hl7-fhir/ImplementationGuide/jp-rezept-dpc"/>
     <version value="0.8.0"/>
@@ -981,6 +981,11 @@
                     <title value="使用するコード体系"/>
                     <generation value="markdown"/>
                 </page>
+            </page>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="ダウンロード"/>
+                <generation value="markdown"/>
             </page>
         </page>
         <parameter>
