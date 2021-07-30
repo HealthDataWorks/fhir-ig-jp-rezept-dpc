@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "SummaryClassification",
+  "id": "CodeSystem-JP-REZEPT-SummaryClassification",
+  "title": "レセプト総括区分コード",
+  "description": "レセプト電算処理システムで使用されているレセプト総括区分コードです。\n\nDPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表15 レセプト総括区分コード」に記載されています。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-dpc/CodeSystem-CodeSystem-JP-REZEPT-SummaryClassification",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-05-07T07:35:46.913+00:00",
+    "source": "#CaKqr7J6NZ9BXVhH"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-rezept-dpc/ValueSet-ValueSet-JP-REZEPT-DPC-SummaryClassification",
+  "concept": [
+    {
+      "code": "0",
+      "display": "DPCレセプト",
+      "definition": "DPCレセプト"
+    },
+    {
+      "code": "1",
+      "display": "総括レセプト",
+      "definition": "総括レセプト"
+    },
+    {
+      "code": "2",
+      "display": "総括対象DPCレセプト",
+      "definition": "総括対象DPCレセプト"
+    },
+    {
+      "code": "3",
+      "display": "総括対象医科入院レセプト",
+      "definition": "総括対象医科入院レセプト"
+    }
+  ],
+  "count": 4
+}

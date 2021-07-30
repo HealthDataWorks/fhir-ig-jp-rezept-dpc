@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MedicalPractice",
+  "id": "ValueSet-JP-REZEPT-DPC-MedicalPractice",
+  "title": "医科診療行為",
+  "description": "この ValueSet には、レセプト電算処理システムで定義されている医科診療行為の種類が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-dpc/ValueSet-ValueSet-JP-REZEPT-DPC-MedicalPractice.html",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-05-07T07:14:48.533+00:00",
+    "source": "#UijA5fvvZQTqBpoF"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.ssk.or.jp/seikyushiharai/tensuhyo/kihonmasta/kihonmasta_01.html"
+      }
+    ]
+  }
+}

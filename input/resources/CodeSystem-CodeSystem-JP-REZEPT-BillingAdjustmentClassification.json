@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "BillingAdjustmentClassification",
+  "id": "CodeSystem-JP-REZEPT-BillingAdjustmentClassification",
+  "title": "請求調整区分コード",
+  "description": "レセプト電算処理システムで使用されている請求調整区分コードです。\n\nDPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表28 請求調整区分コード」に記載されています。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-dpc/CodeSystem-CodeSystem-JP-REZEPT-BillingAdjustmentClassification",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-05-07T07:16:27.031+00:00",
+    "source": "#MSg9Y9FJWFrUo1DW"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-rezept-dpc/ValueSet-ValueSet-JP-REZEPT-DPC-BillingAdjustmentClassification.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "過去の請求済分",
+      "definition": "過去の請求済分"
+    },
+    {
+      "code": "2",
+      "display": "今月の請求分",
+      "definition": "今月の請求分"
+    },
+    {
+      "code": "3",
+      "display": "過去の調整分",
+      "definition": "過去の調整分"
+    }
+  ],
+  "count": 3
+}

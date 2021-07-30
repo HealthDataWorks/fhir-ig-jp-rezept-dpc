@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MedicalTreatment",
+  "id": "ValueSet-JP-REZEPT-MedicalTreatment",
+  "title": "医学的処置コード",
+  "description": "この ValueSet には、レセプト電算処理システムで定義されている医学的処置が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-MedicalTreatment.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-07T04:44:04.425+00:00",
+    "source": "#IhZcFqhq83ZYokwD"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-MedicalTreatment.html"
+      }
+    ]
+  }
+}

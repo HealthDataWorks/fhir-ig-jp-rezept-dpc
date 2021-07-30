@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SpecificDisease",
+  "id": "ValueSet-JP-REZEPT-SpecificDisease",
+  "title": "特定疾病コード",
+  "description": "この ValueSet には、レセプト電算処理システムで定義されている特定疾病が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-SpecificDisease.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-07T04:46:54.094+00:00",
+    "source": "#58YliGFg4VEUxQrw"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-SpecificDisease.html"
+      }
+    ]
+  }
+}

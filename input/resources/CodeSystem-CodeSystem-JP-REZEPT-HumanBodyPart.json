@@ -1,0 +1,185 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "HumanBodyPart",
+  "id": "CodeSystem-JP-REZEPT-HumanBodyPart",
+  "title": "人体の部位等コード",
+  "description": "レセプト電算処理システムで使用されている人体の部位等コードです。\n\n医科レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(医科用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_1_kiroku.pdf) の「別表11 人体の部位等コード」に記載されています。\n\nDPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表11 人体の部位等コード」に記載されています。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-HumanBodyPart.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-07T04:34:24.241+00:00",
+    "source": "#VJyQGmtgiPc0G4J2"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-HumanBodyPart.html",
+  "concept": [
+    {
+      "code": "001",
+      "display": "頭頸部",
+      "definition": "頭頸部"
+    },
+    {
+      "code": "002",
+      "display": "胸部",
+      "definition": "胸部"
+    },
+    {
+      "code": "003",
+      "display": "腹部",
+      "definition": "腹部"
+    },
+    {
+      "code": "004",
+      "display": "呼吸器",
+      "definition": "呼吸器"
+    },
+    {
+      "code": "005",
+      "display": "消化器",
+      "definition": "消化器"
+    },
+    {
+      "code": "006",
+      "display": "循環器",
+      "definition": "循環器"
+    },
+    {
+      "code": "007",
+      "display": "気管食道",
+      "definition": "気管食道"
+    },
+    {
+      "code": "008",
+      "display": "肛門",
+      "definition": "肛門"
+    },
+    {
+      "code": "009",
+      "display": "血管",
+      "definition": "血管"
+    },
+    {
+      "code": "010",
+      "display": "心臓血管",
+      "definition": "心臓血管"
+    },
+    {
+      "code": "011",
+      "display": "腎臓",
+      "definition": "腎臓"
+    },
+    {
+      "code": "012",
+      "display": "脳神経",
+      "definition": "脳神経"
+    },
+    {
+      "code": "013",
+      "display": "神経",
+      "definition": "神経"
+    },
+    {
+      "code": "014",
+      "display": "血液",
+      "definition": "血液"
+    },
+    {
+      "code": "015",
+      "display": "乳腺",
+      "definition": "乳腺"
+    },
+    {
+      "code": "016",
+      "display": "内分泌",
+      "definition": "内分泌"
+    },
+    {
+      "code": "017",
+      "display": "代謝",
+      "definition": "代謝"
+    },
+    {
+      "code": "018",
+      "display": "頭部",
+      "definition": "頭部"
+    },
+    {
+      "code": "019",
+      "display": "頸部",
+      "definition": "頸部"
+    },
+    {
+      "code": "020",
+      "display": "気管",
+      "definition": "気管"
+    },
+    {
+      "code": "021",
+      "display": "気管支",
+      "definition": "気管支"
+    },
+    {
+      "code": "022",
+      "display": "肺",
+      "definition": "肺"
+    },
+    {
+      "code": "023",
+      "display": "食道",
+      "definition": "食道"
+    },
+    {
+      "code": "024",
+      "display": "胃腸",
+      "definition": "胃腸"
+    },
+    {
+      "code": "025",
+      "display": "十二指腸",
+      "definition": "十二指腸"
+    },
+    {
+      "code": "026",
+      "display": "小腸",
+      "definition": "小腸"
+    },
+    {
+      "code": "027",
+      "display": "大腸",
+      "definition": "大腸"
+    },
+    {
+      "code": "028",
+      "display": "肝臓",
+      "definition": "肝臓"
+    },
+    {
+      "code": "029",
+      "display": "胆のう",
+      "definition": "胆のう"
+    },
+    {
+      "code": "030",
+      "display": "膵臓",
+      "definition": "膵臓"
+    },
+    {
+      "code": "031",
+      "display": "心臓",
+      "definition": "心臓"
+    },
+    {
+      "code": "032",
+      "display": "脳",
+      "definition": "脳"
+    },
+    {
+      "code": "033",
+      "display": "脂質代謝",
+      "definition": "脂質代謝"
+    }
+  ],
+  "count": 33
+}

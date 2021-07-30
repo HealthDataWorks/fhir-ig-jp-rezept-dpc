@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DPCOutcomeClassification",
+  "id": "CodeSystem-JP-REZEPT-DPCOutcomeClassification",
+  "title": "DPC転帰区分コード",
+  "description": "レセプト電算処理システムで使用されているDPC転帰区分コードです。\n\nDPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表22 DPC転帰区分コード」に記載されています。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-dpc/CodeSystem-CodeSystem-JP-REZEPT-DPCOutcomeClassification.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-07T07:17:16.350+00:00",
+    "source": "#8rakyNEHvp9wPXmq"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-rezept-dpc/ValueSet-JP_rezept_dpc/ValueSet-JP-REZEPT-DPC-DPCOutcomeClassification.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "治癒",
+      "definition": "治癒"
+    },
+    {
+      "code": "2",
+      "display": "軽快",
+      "definition": "軽快"
+    },
+    {
+      "code": "3",
+      "display": "寛解",
+      "definition": "寛解"
+    },
+    {
+      "code": "4",
+      "display": "不変",
+      "definition": "不変"
+    },
+    {
+      "code": "5",
+      "display": "増悪",
+      "definition": "増悪"
+    },
+    {
+      "code": "6",
+      "display": "死亡",
+      "definition": "死亡"
+    },
+    {
+      "code": "7",
+      "display": "外死亡",
+      "definition": "外死亡"
+    },
+    {
+      "code": "9",
+      "display": "その他",
+      "definition": "その他"
+    }
+  ],
+  "count": 8
+}

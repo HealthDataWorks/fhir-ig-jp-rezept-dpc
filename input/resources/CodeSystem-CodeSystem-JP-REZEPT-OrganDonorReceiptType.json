@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "OrganDonorReceiptType",
+  "id": "CodeSystem-JP-REZEPT-OrganDonorReceiptType",
+  "title": "臓器提供者レセプト種別コード",
+  "description": "レセプト電算処理システムで使用されている臓器提供者レセプト種別コードです。\n\n医科レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(医科用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_1_kiroku.pdf) の「別表26 臓器提供者レセプト種別コード」に記載されています。\n\nDPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表35 臓器提供者レセプト種別コード」に記載されています。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-OrganDonorReceiptType.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-07T04:36:40.349+00:00",
+    "source": "#OddGD0xvqVsPVZ5M"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-OrganDonorReceiptType.html",
+  "concept": [
+    {
+      "code": "1991",
+      "display": "臓器提供者の入院（一般）",
+      "definition": "臓器提供者の入院（一般）"
+    },
+    {
+      "code": "1992",
+      "display": "臓器提供者の入院外（一般）",
+      "definition": "臓器提供者の入院外（一般）"
+    },
+    {
+      "code": "1997",
+      "display": "臓器提供者の入院（後期高齢者）",
+      "definition": "臓器提供者の入院（後期高齢者）"
+    },
+    {
+      "code": "1998",
+      "display": "臓器提供者の入院外（後期高齢者）",
+      "definition": "臓器提供者の入院外（後期高齢者）"
+    }
+  ],
+  "count": 4
+}

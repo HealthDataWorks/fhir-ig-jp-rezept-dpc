@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "OrganDonorReceiptType",
+  "id": "ValueSet-JP-REZEPT-OrganDonorReceiptType",
+  "title": "臓器提供者レセプト種別コード",
+  "description": "この ValueSet には、レセプト電算処理システムで定義されている臓器提供者レセプト種別が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-OrganDonorReceiptType.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-07T04:45:42.743+00:00",
+    "source": "#6vJ04GxYHqOk0Wl3"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-OrganDonorReceiptType.html"
+      }
+    ]
+  }
+}
