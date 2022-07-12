@@ -1,8 +1,0 @@
-canonical: https://healthdataworks.net/hl7-fhir
-fhirVersion: 4.0.1
-FSHOnly: true
-applyExtensionMetadataToRoot: false
-id: jp-rezept-dpc
-name: JP_rezept_dpc
-status: draft
-version: 0.8.0
