@@ -67,7 +67,7 @@ pages:
   guidance.md:
     title: ガイダンス
     mapping.md:
-      title: 医科レセプトとFHIRリソースのデータマッピング
+      title: DPCレセプトとFHIRリソースのデータマッピング
     search.md:
       title: データ検索の方法
     structure.md:
@@ -102,7 +102,7 @@ menu:
   概要: summary.html
   ユースケース: usecase.html
   ガイダンス: 
-    医科レセプトとFHIRリソースのデータマッピング: mapping.html
+    DPCレセプトとFHIRリソースのデータマッピング: mapping.html
     データ検索の方法: search.html
     構造定義: structure.html
     使用するコード体系: terminology.html
